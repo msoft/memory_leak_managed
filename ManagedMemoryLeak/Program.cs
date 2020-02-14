@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnmanagedMemoryLeak;
 
 namespace ManagedMemoryLeak
 {
@@ -14,17 +9,6 @@ namespace ManagedMemoryLeak
 			// Memory leak with managed objects
 			var managedBigObjectGenerator = new ManagedBigObjectGenerator();
 			managedBigObjectGenerator.CreateObjects();
-
-			// Memory leak with managed objects and weak references
-			//var managedBigObjectGeneratorWithWeakRef = new ManagedBigObjectGeneratorWithWeakReferences();
-			//managedBigObjectGeneratorWithWeakRef.CreateObjects();
-
-			// Memory leak with unmanaged objects
-			//var unmanagedBigObjectGenerator = new UnmanagedBigObjectGenerator();
-			//unmanagedBigObjectGenerator.CreateObjects();
-			//var unmanagedMemoryLeak = new UnmanagedBigObjectGenerator(10);
-			//unmanagedMemoryLeak.CreateObjects();
-
 
 			Console.WriteLine("Done");
 

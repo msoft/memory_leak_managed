@@ -80,11 +80,5 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnamanagedMemoryLeak\UnamanagedMemoryLeak.vcxproj">
-      <Project>{a46c7e0c-d15c-4ae3-9677-4ebec9e46c12}</Project>
-      <Name>UnmanagedMemoryLeak</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
