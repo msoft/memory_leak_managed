@@ -1,2 +1,2 @@
 # Memory Leak
-Simulating managed and unmanaged memory leaks.
+Simulating managed memory leak.
